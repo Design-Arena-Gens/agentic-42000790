@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Gestion Commerciale</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <widget class="QTreeWidget" name="navTree">
+      <column>
+       <property name="text">
+        <string>Navigation</string>
+       </property>
+      </column>
+      <item>
+       <property name="text" stdset="0">
+        <string>Ventes</string>
+       </property>
+       <item>
+        <property name="text" stdset="0">
+         <string>Devis</string>
+        </property>
+       </item>
+       <item>
+        <property name="text" stdset="0">
+         <string>BL</string>
+        </property>
+       </item>
+       <item>
+        <property name="text" stdset="0">
+         <string>Factures</string>
+        </property>
+       </item>
+      </item>
+      <item>
+       <property name="text" stdset="0">
+        <string>Achats</string>
+       </property>
+      </item>
+      <item>
+       <property name="text" stdset="0">
+        <string>Stock</string>
+       </property>
+      </item>
+      <item>
+       <property name="text" stdset="0">
+        <string>Clients</string>
+       </property>
+      </item>
+      <item>
+       <property name="text" stdset="0">
+        <string>Fournisseurs</string>
+       </property>
+      </item>
+      <item>
+       <property name="text" stdset="0">
+        <string>Produits</string>
+       </property>
+      </item>
+      <item>
+       <property name="text" stdset="0">
+        <string>Paiements</string>
+       </property>
+      </item>
+      <item>
+       <property name="text" stdset="0">
+        <string>Caisse</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stack"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <addaction name="menuFile"/>
+   <addaction name="menuTools"/>
+   <addaction name="menuHelp"/>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>Fichier</string>
+    </property>
+    <addaction name="actionBackup"/>
+    <addaction name="actionRestore"/>
+    <addaction name="actionSettings"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Outils</string>
+    </property>
+    <addaction name="actionLangFr"/>
+    <addaction name="actionLangAr"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Aide</string>
+    </property>
+    <addaction name="actionAbout"/>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBackup">
+   <property name="text">
+    <string>Sauvegarde</string>
+   </property>
+  </action>
+  <action name="actionRestore">
+   <property name="text">
+    <string>Restaurer</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>Param?tres</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quitter</string>
+   </property>
+  </action>
+  <action name="actionLangFr">
+   <property name="text">
+    <string>Fran?ais</string>
+   </property>
+  </action>
+  <action name="actionLangAr">
+   <property name="text">
+    <string>???????</string>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>? propos</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

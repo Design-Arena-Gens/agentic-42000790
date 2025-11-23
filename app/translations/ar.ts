@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="ar">
+<context>
+    <name>QObject</name>
+    <message>
+        <source>Connexion</source>
+        <translation>????? ??????</translation>
+    </message>
+    <message>
+        <source>Se connecter</source>
+        <translation>?????</translation>
+    </message>
+    <message>
+        <source>Annuler</source>
+        <translation>?????</translation>
+    </message>
+</context>
+</TS>
